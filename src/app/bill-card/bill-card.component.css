@@ -1,0 +1,15 @@
+p{
+    font-size: 16px;
+}
+.autobiography-container{
+    display: flex;
+    margin: 2em;
+}
+img{
+    height: 100px;
+    width: 200px;
+}
+.text-biography{
+    margin-left: 0.5em;
+    width: 30%;
+}

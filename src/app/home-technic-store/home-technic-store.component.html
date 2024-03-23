@@ -1,0 +1,16 @@
+<div class="main">
+    <div class="line" *ngFor="let product of Products">
+        <div class="name">{{product.name}}</div>
+        <div class="category">{{product.category}}</div>
+        <div class="bottom-container">
+            <div class="line-container">
+                <div class="line-small"><span>Producer:</span> {{product.producer}}</div>
+                <div class="line-small"><span>Price:</span> {{product.price | currency}}</div>
+                <button class="btn">Buy</button>
+            </div>
+            <div class="line-container">
+                <img [src]="product.urlImage">
+            </div>
+        </div>
+    </div>
+</div>
